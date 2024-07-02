@@ -1,4 +1,14 @@
+<script>
+export default {
+  data() {
+    return {
+      name: 'World'
+    }
+  }
+}
+</script>
+
 
 <template>
-  <h1>Hello World</h1>
+  <h1>Hello {{name}}</h1>
 </template>
