@@ -13,5 +13,5 @@ export default {
 <template>
   <h1>Hello {{name}}</h1>
   <p v-if="status">User is active</p>
-  <p v-else="status">User is inactive</p>
+  <p v-else>User is inactive</p>
 </template>
