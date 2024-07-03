@@ -6,7 +6,7 @@ export default {
       status: 'active',
       tasks: ['Task 1', 'Task 2', 'Task 3'],
       link: 'https://google.com',
-    }
+    };
   },
   methods: {
     toggleStatus() {
@@ -17,11 +17,10 @@ export default {
       } else {
         this.status = 'active'
       }
-    }
-  }
-}
+    },
+  },
+};
 </script>
-
 
 <template>
   <h1>Hello {{ name }}</h1>
